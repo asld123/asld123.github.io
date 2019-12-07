@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" 
+    href="style.css">
+    <style> body {
+        background-color: cornflowerblue;}
+        h1{
+            color: darkmagenta;
+        }
+        .title {
+        color: darkgoldenrod;
+        }
+        .title.small {
+            font-size: 50%;
+        }
+        p, h1 {
+            border: 2px solid white;
+        }
+        .rodzic p{
+            font-size: large;
+        }
+        p{
+            transition: all 2ms;
+        }
+        p:hover {
+            color: violet;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CURRICULUM VITAE</title>
 </head
-<body>
-    Anna Siwek
+<body> 
+    <div class="rodzic">
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Incidunt sapiente rem debitis asperiores voluptates culpa eveniet quasi reiciendis nemo, 
+                exercitationem laboriosam ipsam nisi, 
+                tempora dolorum illo quibusdam perferendis aliquam odio.
+            </p>
+
+    <h1> class="title">Anna Siwek</h1>
+    <h1>tymczasowe</h1>
+    <p> class="title.small"
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Incidunt sapiente rem debitis asperiores voluptates culpa eveniet quasi reiciendis nemo, 
+            exercitationem laboriosam ipsam nisi, 
+            tempora dolorum illo quibusdam perferendis aliquam odio.
+    </p>
+    <p> class="title"
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Incidunt sapiente rem debitis asperiores voluptates culpa eveniet quasi reiciendis nemo, 
+        exercitationem laboriosam ipsam nisi, 
+        tempora dolorum illo quibusdam perferendis aliquam odio.
+    </p>
+    <p id="test" class="title">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Incidunt sapiente rem debitis asperiores voluptates culpa eveniet quasi reiciendis nemo, 
+        exercitationem laboriosam ipsam nisi, 
+        tempora dolorum illo quibusdam perferendis aliquam odio.
+    </p>
 </body>
 </html>
